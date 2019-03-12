@@ -1,25 +1,25 @@
 Feature: Tests for sigin in page
 
- # Scenario Outline: User is signed into the autopracitce
- #   Given User navigate into autopractise website
-#    Then  User entered the user name and password  into autopractise website
-#    And I enter a <emailid>
-#    And I enter <password>
-#    Then click on sign in button
+  Scenario Outline: User is signed into the autopracitce
+   Given User navigate into autopractise website
+   Then  User entered the user name and password  into autopractise website
+   And I enter a <emailid>
+   And I enter <password>
+    Then click on sign in button
 
-#  Examples:
-#  | emailid               | password    |
-#  | "Sashaooo@gmail.com" | "Sashaooo" |
+  Examples:
+ | emailid               | password    |
+  | "Sashaooo@gmail.com" | "Sashaooo" |
 
 
-  #Scenario: As a user updated the personal account information
-   # Then click on the my personal information
-  #  Then click on the first name
-  #  Then update the first name
-   # Then click on the Save button
-  #  Then enter the password
-  #  Then click on the Save button
- #   Then verify < Your personal information has been successfully updated.> dispalyed to the user
+  Scenario: As a user updated the personal account information
+  Then click on the my personal information
+   Then click on the first name
+  Then update the first name
+   Then click on the Save button
+   Then enter the password
+   Then click on the Save button
+   Then verify < Your personal information has been successfully updated.> dispalyed to the user
 
 
 
